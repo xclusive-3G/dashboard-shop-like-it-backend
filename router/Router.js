@@ -1,7 +1,7 @@
 // routes/dataRoute.js
 import express from "express";
 import { postDetails, getDetails, deleteProduct } from "../controller/ControlApi.js";
-import { upload } from "../middleware/multer.js"
+import { upload } from "../multer.js"
 
 const route = express.Router();
 
